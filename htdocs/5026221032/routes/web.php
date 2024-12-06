@@ -62,3 +62,13 @@ Route::get('/pegawai','App\Http\Controllers\PegawaiDBController@index');
 
 Route::get('/pegawai','App\Http\Controllers\PegawaiDBController@index');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiDBController@cari');
+
+
+//Tugas
+Route::get('/kursi', 'App\Http\Controllers\KursiDBController@index');
+Route::get('/kursi/tambah', 'App\Http\Controllers\KursiDBController@tambah');
+Route::post('/kursi/store', 'App\Http\Controllers\KursiDBController@store');
+Route::get('/kursi/edit/{id}', 'App\Http\Controllers\KursiDBController@edit');
+Route::post('/kursi/update', 'App\Http\Controllers\KursiDBController@update');
+Route::get('/kursi/hapus/{id}', 'App\Http\Controllers\KursiDBController@hapus');
+Route::get('/kursi/cari', 'App\Http\Controllers\KursiDBController@cari');

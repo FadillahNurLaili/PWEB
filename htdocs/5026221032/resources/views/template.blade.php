@@ -10,6 +10,10 @@
   <script src="/js/solid.js"> </script>
 </head>
 <body>
+    <nav>
+        <a href="/pegawai">Pegawai</a>
+        <a href="/kursi">Kursi</a>
+    </nav>
 
 <div class="container">
     <h2>Fadilah Nur Laili - 5026221032</h2>
